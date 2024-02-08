@@ -1,0 +1,24 @@
+h1{
+    color:orange
+}
+
+p span{
+    font-size: 32px;
+    color: blue;
+}
+
+
+
+.paragrafo-bloco1{
+    font-size: 24px;
+}
+.paragrafo-bloco2{
+    font-size: 28px;
+}
+
+.span-textinho{
+    color: red;
+}
+.span-textinho2{
+    color: blueviolet;
+}
