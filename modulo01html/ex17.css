@@ -22,6 +22,7 @@ h3 {
 p {
     font-size: 18px;
     line-height: 1.4;
+    font-family: 'Montserrat',sans-serif;
 }
 
 a{
@@ -32,4 +33,18 @@ a{
     text-decoration-line: underline;
 
 }
-
+li{
+    color:#035276;
+    font-style: italic;
+}
+span{
+    color: #0588c4;
+}
+.realce-condicao{
+    color: #0588c4;
+}
+#realce-frete{
+    color: #0588c4;
+    text-decoration: underline;
+}
+/*terminar amanhã*/

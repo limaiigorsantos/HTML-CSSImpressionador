@@ -1,7 +1,7 @@
 a{
     font-style: italic;
-    text-decoration: dashed;
-    text-decoration-line: underline;
+    text-decoration: dotted;
+    text-decoration-line:overline;
     text-decoration-color:#008000 ;
     color: #e76565;
 }
