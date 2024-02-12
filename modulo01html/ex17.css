@@ -1,22 +1,26 @@
 figcaption {
     font-style: italic;
     font-size: 12px;
+    font-family: 'Montserrat',sans-serif;
 }
 
 h1 {
     font-size: 45px;
     line-height: 1;
+    font-family: 'Montserrat',sans-serif;
 }
 
 h2 {
     font-size: 32px;
     line-height: 1.1;
+    font-family: 'Montserrat',sans-serif;
 
 }
 
 h3 {
     font-size: 24px;
     line-height: 1.2px;
+    font-family: 'Montserrat',sans-serif;
 }
 
 p {
@@ -29,21 +33,25 @@ a{
     font-size: 24px;
     color: #c44105;
     font-weight: bold;
-    text-decoration:dashed;
+    text-decoration:double;
     text-decoration-line: underline;
+    font-family: 'Montserrat',sans-serif;
 
 }
 li{
     color:#035276;
     font-style: italic;
+    font-family: 'Montserrat',sans-serif;
 }
 span{
     color: #0588c4;
 }
+.realce-preco{
+    color: #0588c4;
+    font-weight: 500%;
+}
+
 .realce-condicao{
     color: #0588c4;
 }
-#realce-frete{
-    color: #0588c4;
-    text-decoration: underline;
-}
+
