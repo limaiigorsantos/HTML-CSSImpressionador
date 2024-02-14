@@ -1,8 +1,38 @@
+/*.item-lista-cabecalho a,
+h1,
+.paragrafo-secao-hero,
+.botao-secao-hero a {
+    font-family: 'montserrat',sans-serif;
+}
+*/
+
 .item-lista-cabecalho a {
     font-size: 14px;
-    font-family: 'montserrat'sans-serif;
+    font-family: 'montserrat',sans-serif;
     color: #112e61;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+h1{
+    color:#404040;
+    font-size: 35px;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.2;
+}
+.paragrafo-secao-hero{
+    color:#404040;
+    font-size: 19px;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.2;
+}
+
+.botao-secao-hero ,a{
+    color:#838282;
+    font-size: 19px;
+    font-family: 'montserrat',sans-serif;
+    line-height: 1.0;
+    text-decoration: none;
+    font-weight: 600;
 }
