@@ -34,3 +34,24 @@ h1{
     text-decoration: none;
 
 }
+/*secao gratuita*/
+
+.gratuito-h2{
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.gratuito-realce {
+    color:#7a40be;
+    font-weight: 600;
+}
+.gratuito-h3{
+    font-size:23px;
+    font-weight: 700;;
+}
+
+.gratuito-link-lista{
+    font-size: 19px;
+    text-decoration: none;
+
+}
