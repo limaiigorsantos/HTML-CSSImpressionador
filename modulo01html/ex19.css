@@ -134,6 +134,27 @@ a {
     font-size: 24px;
     font-weight: 700;
 }
+/*Últimos posts do Blog da Hashtag*/
+h4 a{
+    color: #404040;
+    font-size: 24px;
+    font-weight: 600;
+    font-family:'montserrat',sans-serif;
+}
+.paragrafo-ultimo-post{
+    color: #404040;
+    font-size: 17px;
+    font-family: 'montserrat'sans-serif;
+}
+.realce-legenda-secao-ultimos-post{
+    color: #f7a70c;
+    font-size: 15px;
+    font-family: 'montserrat',sans-serif;
+}
+figcaption{
+    font-size: 15px;
+    font-family: 'montserrat',sans-serif;
+}
 img{
-    width: 50px;
+    width:150px;
 }
