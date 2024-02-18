@@ -18,14 +18,14 @@ h1,
 h1 {
     color: #404040;
     font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif;
     line-height: 1.2;
 }
 
 .paragrafo-secao-hero {
     color: #404040;
     font-size: 19px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif;
     line-height: 1.2;
 }
 
@@ -68,7 +68,7 @@ a {
 /*secao diferenciais */
 .secao-h2 {
     font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif;
     color: #404040;
     font-weight: 400;
 
@@ -156,6 +156,32 @@ figcaption{
     font-family: 'montserrat',sans-serif;
 }
 /*<!--Como a Hashtag pode te ajudar?-->*/
+.tituloh2-como-possoteajudar{
+    color: #404040;
+    font-size: 35px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 100;
+
+}
+.tituloh2-como-possoteajudar span {
+    color: #f7a70c;
+    font-weight: bold;
+
+}
+ p ,.paragrafo-secao-comopossoteajudar  {
+    color: black;
+    font-size: 19px;
+    font-family: "Montserrat",sans-serif
+}
+
+.paragrafo-secao-comopossoteajudar a{
+    text-decoration: underline;
+    color:#008ff7;
+    font-weight: 600;
+}
+
+
+
 img{
-    width:150px;
+    width:50px;
 }
