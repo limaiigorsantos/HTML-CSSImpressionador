@@ -193,9 +193,36 @@ font-family: 'Montserrat',sans-serif;
     font-family: 'Montserrat'sans-serif;
 }
 /*Fale Conosco*/
+.tituloh3-faleconosco{
+    font-size: 22px;
+    font-family: 'Montserrat',sans-serif;
+    color: #404040;
+    font-weight: 600;
+}
 
-
-
+.paragrafo-faleconosco{
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+.email-telefone , a{
+    color: #008ff7;
+    text-decoration: underline;
+}
+.formulario-titulo{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'montserrat',sans-serif;
+    color: #404040;
+}
+.formulario-paragrafo{
+    font-size: 18px;
+    font-family: 'montserrat',sans-serif;
+    color: #404040;
+}
+.formulario-paragrafo  p{
+    font-size: 10px;
+}
 img{
     width:50px;
 }
