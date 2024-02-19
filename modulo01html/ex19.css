@@ -180,6 +180,20 @@ figcaption{
     font-weight: 600;
 }
 
+.secao-formatando-minicurso{
+font-weight: 400;
+font-family: 'Montserrat',sans-serif;
+}
+.secao-formatando-minicurso strong{
+    color: #f7a70c;
+    font-weight: bold;
+}
+.botao-link{
+    font-size: 30px;
+    font-family: 'Montserrat'sans-serif;
+}
+/*Fale Conosco*/
+
 
 
 img{
