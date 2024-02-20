@@ -167,3 +167,21 @@ h4 {
 
 
 /*20. Desafio 2 - Formatando o Rodapé*/
+.Rodape-titulo{
+    font-weight: bolder;
+    font-size: 22px;
+    
+}
+.Rodape-subtitulo{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.Rodape-sgd-subtitulo{
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+.Rodape-link{
+    color: #005e88;
+}
