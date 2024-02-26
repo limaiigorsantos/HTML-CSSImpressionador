@@ -96,7 +96,8 @@ menu {
 .secao-dfcs h3{
   font-weight: normal;
 }
-.secao-dfcs h3 span{
+.secao-dfcs h3 a{
     color: #3919b9;
     font-weight: bolder;
+    text-decoration: none;
 }
