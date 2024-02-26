@@ -1,58 +1,102 @@
-header nav a{
-   
+header nav a {
+
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
 }
+
 /*--secao seja bem vindo---*/
 menu {
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #404040;
     font-weight: 600;
-   
+
 }
-.secao-sbv h1{
+
+.secao-sbv h1 {
     font-size: 35px;
 }
-.secao-sbv p{
+
+.secao-sbv p {
     color: #404040;
     font-size: 19px;
     font-weight: normal;
 }
-.secao-sbv a{
+
+.secao-sbv a {
     color: #404040;
     font-size: 24px;
     text-decoration: none;
 }
-.secao-scg h2{
+
+.secao-scg h2 {
     color: #404040;
     font-size: 35px;
-    font-family:'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
-.secao-scg span{
+
+.secao-scg span {
     color: #7A40BE;
     font-family: 35px;
     font-weight: 600;
 
 }
-.secao-scg h3{
+
+.secao-scg h3 {
     color: #404040;
     font-size: 23px;
-    font-family:'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
-.secao-scg a{
+
+.secao-scg a {
     color: #404040;
     font-size: 19px;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     text-decoration: none;
 
 }
 
 .secao-scg img {
-width: 50px;
+    width: 50px;
+}
+.secao-dfcs h3 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.secao-dfcs h3 strong {
+    color: #3919b9;
+}
+.secao-dfcs p {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: normal;    
+}
+
+.secao-dfcs strong {
+    font-weight: bold;
+}
+
+.secao-dfcs img {
+    width: 50px;
+    background-color: #404040;
+}
+
+.secao-dfcs .titulos-secao-diferencial {
+    color: #3919b9;
+    font-size: 24px;
+    font-weight: bold;
+}
+.secao-dfcs h3{
+  font-weight: normal;
+}
+.secao-dfcs h3 span{
+    color: #3919b9;
+    font-weight: bolder;
 }
