@@ -101,3 +101,15 @@ menu {
     font-weight: bolder;
     text-decoration: none;
 }
+/*<!--secao oque falam sobre a hashtag-->*/
+.secao-ofsh h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+  
+}
+.secao-ofsh h2 span{
+    color: #3919b9;
+    font-weight: bolder;
+
+}
