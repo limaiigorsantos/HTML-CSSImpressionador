@@ -28,8 +28,16 @@ strong {
 
 h2 {
     font-size: 35px;
-    font-weight: 600;
+    font-weight: normal;
 }
+
+.botao {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
 
 /*--Desafio02 completando o cabeçalho-*/
 .item-lista-cabecalho a {
@@ -46,11 +54,6 @@ h2 {
     font-size: 19px;
 }
 
-.hero-botao {
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: none;
-}
 
 /*
 .gratuito-h2{
@@ -103,4 +106,9 @@ h2 {
     color: #112e61;
     font-weight: 700;
     text-decoration: none;
+}
+/*secao oque falam*/
+
+.oquefalam-realce{
+    font-weight: 600;
 }
