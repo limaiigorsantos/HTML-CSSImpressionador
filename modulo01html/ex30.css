@@ -137,3 +137,22 @@ h2 {
     font-size: 17px;
 
 }
+
+.comoajudar-realce {
+    font-weight: 600;
+}
+
+.comoajudar-lista .comoajudar-paragrafo {
+    font-size: 19px;
+}
+
+.comoajudar-lista a,
+.comoajudar-paragrafo a {
+    color: #112e61;
+    font-weight: 600;
+
+}
+
+.comoajudar-paragrafo b {
+    font-weight: 600;
+}
