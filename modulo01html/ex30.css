@@ -37,7 +37,9 @@ h2 {
     text-decoration: none;
 }
 
-
+.realce-semibold{
+    font-weight: 600;
+}
 
 /*--Desafio02 completando o cabeçalho-*/
 .item-lista-cabecalho a {
@@ -110,9 +112,6 @@ h2 {
 
 /*secao oque falam*/
 
-.oquefalam-realce {
-    font-weight: 600;
-}
 
 .blog-postadoem {
     font-size: 15px;
@@ -138,9 +137,7 @@ h2 {
 
 }
 
-.comoajudar-realce {
-    font-weight: 600;
-}
+
 
 .comoajudar-lista .comoajudar-paragrafo {
     font-size: 19px;
