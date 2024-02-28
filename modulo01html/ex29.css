@@ -195,17 +195,66 @@ menu {
     font-weight: bolder;
 
 }
-.secao-mc strong{
+
+.secao-mc strong {
     color: #3919b9;
     font-weight: bolder;
 }
-.secao-mc h2{
+
+.secao-mc h2 {
     font-weight: normal;
     font-size: 32px;
 }
-.secao-mc label{
+
+.secao-mc label {
     color: #3919b9;
     font-size: 19px;
 
 }
 
+.rodape .paragrafo-titulo {
+    color: #343434;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.rodape .paragrafo-h2 {
+    color: #343434;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.rodape .paragrafo-h3 {
+    color: #343434;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.rodape address p {
+    color: #404040;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rodape address a {
+    font-style: normal;
+    text-decoration: underline;
+    color: #3919b9;
+    font-size: 16px;
+}
+
+.secao-pdlu a {
+    color: #3919b9;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.secao-pdlu form {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
