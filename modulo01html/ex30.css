@@ -153,3 +153,21 @@ h2 {
 .comoajudar-paragrafo b {
     font-weight: 600;
 }
+.rodape-titulo{
+    font-weight: 600;
+    font-size: 22px;
+
+}
+.rodape-subtitulo {
+    font-size: 20;
+    font-weight: 500;
+}
+.rodape-seg-subtitulo{
+    font-weight: 500;
+    font-size: 18px;
+}
+.rodape-link {
+    color: #112e61;
+    font-weight: bold;
+    font-size: 16px;
+}
