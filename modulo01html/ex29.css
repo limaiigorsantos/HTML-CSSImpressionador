@@ -1,0 +1,151 @@
+header nav a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*--secao seja bem vindo---*/
+menu {
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+    font-weight: 600;
+
+}
+
+.secao-sbv h1 {
+    font-size: 35px;
+}
+
+.secao-sbv p {
+    color: #404040;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.secao-sbv a {
+    color: #404040;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.secao-scg h2 {
+    color: #404040;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.secao-scg span {
+    color: #7A40BE;
+    font-family: 35px;
+    font-weight: 600;
+
+}
+
+.secao-scg h3 {
+    color: #404040;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.secao-scg a {
+    color: #404040;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+
+.secao-scg img {
+    width: 50px;
+}
+.secao-dfcs h3 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.secao-dfcs h3 strong {
+    color: #3919b9;
+}
+.secao-dfcs p {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: normal;    
+}
+
+.secao-dfcs strong {
+    font-weight: bold;
+}
+
+.secao-dfcs img {
+    width: 50px;
+    background-color: #404040;
+}
+
+.secao-dfcs .titulos-secao-diferencial {
+    color: #3919b9;
+    font-size: 24px;
+    font-weight: bold;
+}
+.secao-dfcs h3{
+  font-weight: normal;
+}
+.secao-dfcs h3 a{
+    color: #3919b9;
+    font-weight: bolder;
+    text-decoration: none;
+}
+/*<!--secao oque falam sobre a hashtag-->*/
+.secao-ofsh h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+  
+}
+.secao-ofsh h2 span{
+    color: #3919b9;
+    font-weight: bolder;
+
+}
+/* Hashtag Treinamentos na mídia*/ 
+.secao-htm h2{ 
+    font-size: 32px;
+    font-weight: normal;
+}
+/*<!--Últimos posts do Blog da Hashtag-->*/
+.secao-upbh h3{
+font-size: 35px;
+font-family: 'Montserrat',sans-serif;
+font-weight: normal;
+
+}
+.secao-upbh img{
+    width: 250px;
+}
+.secao-upbh a {
+    color: #404040;
+    font-size: 15px;
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+}
+.secao-upbh  span{
+    color: #f7a70c;;
+
+}
+.secao-upbh  h4 a{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+}
+.secao-upbh p {
+    font-weight: normal;
+    font-size: 17px;
+    color: #404040;
+}
