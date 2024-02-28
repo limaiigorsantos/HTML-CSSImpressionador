@@ -118,3 +118,34 @@ menu {
     font-size: 32px;
     font-weight: normal;
 }
+/*<!--Últimos posts do Blog da Hashtag-->*/
+.secao-upbh h3{
+font-size: 35px;
+font-family: 'Montserrat',sans-serif;
+font-weight: normal;
+
+}
+.secao-upbh img{
+    width: 250px;
+}
+.secao-upbh a {
+    color: #404040;
+    font-size: 15px;
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+}
+.secao-upbh  span{
+    color: #f7a70c;;
+
+}
+.secao-upbh  h4 a{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Montserrat',sans-serif;
+}
+.secao-upbh p {
+    font-weight: normal;
+    font-size: 17px;
+    color: #404040;
+}
