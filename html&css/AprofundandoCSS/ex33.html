@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dimensões e Unidades </title>
+    <style>
+        /* as duas Dimensões são hight e width . altura e largura **/
+        /*unidade absoluta = pixel , centimentrs , metros  são medidas que nao mudam e não depende de nada*/
+        /* unidade relativas são  vh , vw , em , rem  . são unidades que dependem de alguma coisa 
+         viewport = dimensões do dispostivo 
+        /* vh = viewport heigt = tamanho do navegador . altura do navegador . depende da altura do dispositivo da tela (logica = 1 percentual da altura da tela 
+           vw  = viewport widht =  tamanho do navegador .largura do navegador . depende da largura do disposito da tela (logica = 1 percentual da altura da tela ) 
+              em = é um multiplicador de fonte do elemento pai   depende da altura da font size do elemento pai (multiplicador do elemento pai - multiplica 1 * a quantidade do elemnto pai     )
+            rem (root em ) = ele tem a mesma logica do em precisa de um elemnto pai , mas o elemento pai tem que ser um elemento pai que seja pai de todos por exemplo HTML  
+        */
+        html{
+            font-size: 20px;
+        }
+
+        div{
+            background-color: red;
+            padding:10px;
+       
+            height: 50vh;
+            width: 100px;
+            font-size: 16px;
+
+        }
+        /* 1*16px  deoende do tamanho da fonte size do elemnto pai . nesse caso o elemento pai  é a div */
+        p{
+            font-size: 2em;
+        }
+        section{ /*elemnto pai*/
+            font-size: 10px
+        }
+        p{ /*elemento filho - ta multiplicando 2 * 10 = 20px*/
+            font-size: 12rem;
+        }
+    </style>
+
+
 </head>
 <body>
-    
+    <div>
+        <h1>Meu Titulo </h1>
+        <p> Meu primeiro Parágrafo </p>
+    </div>
+    <section>
+        <p>meu segundo paragrafo02</p>
+    </section>
 </body>
 </html>
