@@ -1,35 +1,80 @@
 /*   Pseudo classe  */
-     /*  é uma palavra chave que vai dar um estado ao elemnto * por a palavra chave é usada com dois pontos : o mais comum é o hover (passar por cima)
+/*  é uma palavra chave que vai dar um estado ao elemnto * por a palavra chave é usada com dois pontos : o mais comum é o hover (passar por cima)
         assim irá passar um estado a tag . exemplo , quando passar o mouse por cima da tag p  , ela usa a tags css selecionadas dentro do estado hover que é o mais 
         comum */
-        
-        /* sigla pseudoclasse =  L V H A = SAO SIGLAS QUE LEBRA TODAS AS PSEUDOCLASSES QUE TEMOS QUE USAR TODA VIDA QUE 
+
+/* sigla pseudoclasse =  L V H A = SAO SIGLAS QUE LEBRA TODAS AS PSEUDOCLASSES QUE TEMOS QUE USAR TODA VIDA QUE 
         FOR USAR UM LINK */
 
-        /*significado  L V H A  = LINK, VISITED ,HOVER,ACTIVE ( ESSES SÃO OS QUATROS ESTADOS) APENAS PARA TAG LINK 
+/*significado  L V H A  = LINK, VISITED ,HOVER,ACTIVE ( ESSES SÃO OS QUATROS ESTADOS) APENAS PARA TAG LINK 
                                  PODEM SER USADOS JUNTOS OU SEPARADOS . RECOMENDADO USAR JUNTO 
         */
-    
-        a:link {
-            /* pseudo classse link faz a linha do link ficar vermelha ou outra cor */
+
+/* a:link {
+             pseudo classse link faz a linha do link ficar vermelha ou outra cor 
             color: red;
 
-        }
+        }*/
 
-        a:visited {
-            /* ele muda a cor do link caso ele for visitado - se o link ja tiver sido visitado ele ficara a cor desejada *
+/* a:visited {
+            ele muda a cor do link caso ele for visitado - se o link ja tiver sido visitado ele ficara a cor desejada *
                      SÓ É ACIONADO QUANDO FOR VISITADO A PAGINA , AI ELE GUARDA A INFORMAÇÃO E QUANDO VOLTAR AO SITE ELE JA IRÁ FICAR
-                     NA COR SELECIONADO */
+                     NA COR SELECIONADO 
             color: rgb(23, 129, 29);
-        }
+        }*/
 
-        a:hover {
-            /*QUANDO PASSAR O MOUSE ENCIMA É ACIONADO*/
+/*a:hover {
+            QUANDO PASSAR O MOUSE ENCIMA É ACIONADO
             font-weight: bolder;
             font-size: 32px;
-        }
+        }*/
 
-        a:active {
-            /*ele deixa o estado ativo por um certo tempo USADO PARA O CLIQUE , QUANDO CLICAR É ACIONADO */
+/*a:active {
+            /*ele deixa o estado ativo por um certo tempo USADO PARA O CLIQUE , QUANDO CLICAR É ACIONADO 
             color: yellow;
-        } 
+        } */
+/*agrupados*/
+a:link a:visited {
+    color: blue;
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* link sempre em primeiro e em segundo visited */
+/*  A pseudoclasse :link o estado "normal" dos links que ainda não tenham sido visitados. 
+Recomenda-se que a pseudoclasse :link seja a primeira,
+ a ser declarada entre todas aquelas destinadas a estilizar os estados dos links. 
+ A ordem de declaração dos quatro estados é: :link, :visited, :hover, :active*/
+
+/*A pseudoclasse :active é usada para estilizar um elemento no momento em que o usuário o torna "ativo" 
+quer com uso de um dispositivo apontador que tocando-o em um dispositivo do tipo touchscreen. 
+Pode-se ativá-lo também com uso do teclado tal como se faz com a pseudoclasse :focus.
+Seu comportamento e semelhante ao de :focus, com a diferença que :active é um evento que ocorre entre o apertar e soltar no clique do mouse.
+a:hover a:active*/
+
+
+
+
+
+a:hover a:active{
+    color: green;
+}
+/* primeiro hover e segundo activer*/
+/*:hover
+A pseudoclasse :hover é usada para estilizar 
+links no momento em que o usuário coloca o dispositivo apontador sobre um elemento. 
+Essa pseudoclasse não é exclusiva para links embora seja seu uso mais comum.
+Deve ser a terceira a ser declarada (depois da pseudoclasse :visited).*/
+/* active
+:active é usada para estilizar um elemento no momento em que o usuário 
+o torna "ativo" quer com uso de um dispositivo apontador que tocando-o em um dispositivo 
+do tipo touchscreen. Pode-se ativá-lo também com uso do teclado tal como se faz com a pseudoclasse 
+:focus.
+Seu comportamento e semelhante ao de :focus, com a diferença que :active é um evento que ocorre 
+entre o apertar e soltar no clique do mouse.
+Deve ser a quarta a ser declarada (depois da pseudoclasse :hover). */
+p hover{
+    color: red;
+    font-size: 32px;
+    font-weight: 700;
+}
