@@ -13,17 +13,22 @@
            vw  = viewport widht =  tamanho do navegador .largura do navegador . depende da largura do disposito da tela (logica = 1 percentual da altura da tela ) 
               em = é um multiplicador de fonte do elemento pai   depende da altura da font size do elemento pai (multiplicador do elemento pai - multiplica 1 * a quantidade do elemnto pai     )
             rem (root em ) = ele tem a mesma logica do em precisa de um elemnto pai , mas o elemento pai tem que ser um elemento pai que seja pai de todos por exemplo HTML  
-        */
-        html{
-            font-size: 20px;
+          rem pode ser usado com altura   e largura tbm */
+        /* começar a definir tamanho com rem */
+        /*font size sempre ser definido em 10px pois fica mais facil de converter em rem ou em pois é a base de 10*/
+        /*nao usar pixel como medida usaro rem . pixel so quando for um tamanho que eu não queira mudar */
+        html{ /**root usado para todos rem pois é pai de todos */
+            /*font-size: 10px ;  ou */
+            font-size: 62.5%; /*é recomendado usar porcentagem */ 
         }
 
         div{
             background-color: red;
             padding:10px;
-       
-            height: 50vh;
-            width: 100px;
+            /*100px*/
+             width: 15rem;
+              /*150px*/
+             height: 5rem;
             font-size: 16px;
 
         }
