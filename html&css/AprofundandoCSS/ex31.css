@@ -7,3 +7,12 @@ h1{
     font-size: 21px;
     color: aquamarine;
 }
+#title2{
+    color: blue;
+    font-size: 21px;
+    color: rgb(6, 167, 113);
+}
+h1{
+    font-size: 50px !important ;
+    color: red !important;
+}
