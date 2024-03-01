@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudos elementos</title>
+</head>
+
+<body>
+   
+    <style>
+    /* pseudo elementos não representa um estado 
+    usa :: ao inves de um 
+    
+    */
+
+     p::after{
+        content: 'Textinho que vai entrar no final ';
+    }
+    p::before{
+        content: 'Textinho que vai entrar no começo';
+    }
+    
+    p::first-letter{  /*vai formatar apenas a primeira letra do paragrafo */
+        font-size: 60px;
+    }
+    p::first-line{   /**muda apenas a primeira linha do Paragrafo */
+        color: red;
+    }
+   
+    </style>
+    <p>What is Lorem Ipsum?
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has</p>
+</body>
+
+</html>
