@@ -1,0 +1,33 @@
+ *{
+            margin: 0px;
+            padding: 0px;
+        }
+        html{
+            font-size: 62.5%; /* = 10*/
+        }
+        div{
+            margin: 10rem;
+
+            width: 20rem;
+            height: 20rem;
+            background-color: green;
+
+            /*deslocamento horizontal =lados . deslocamento vertical = cima e baixo  . para inverte baixar colocar  - (sinal de menos )
+            /* deslocamento horizontal , deslocamento vertical , cor*/
+            box-shadow:  1rem 2rem   rgba(55, 54, 54, 0.253); /*  duas  informações, deslocamento vertical , horizontal e cor  */
+            
+            /* deslocamento horizontal , deslocamento vertical ,raio de desfoque, cor */
+             box-shadow:  1rem 2rem 2rem rgba(55, 54, 54, 0.253); /* tres informações  deslocamento horizonta , vertical e raio de desfoque(embaçado) e cor    * /
+
+            /* deslocamento horizontal , deslocamento vertical , raio de desfoque, raio de propagação, cor*/
+            box-shadow: 5rem 5rem 01em 2rem rgba(55, 54, 54, 0.253); /* quatro informções deslocamento horizontal, vertical , raio de desfoque(embaçado) e
+                                                                        raio de propragação ( maior ou menor a sombra vai ser em relação ao elmmento*/
+            /* borda pelo lado de dentro . basta colocar o INSTER */
+            /* instert é o argumento onde eu posso colocar a sombra para dentro do elemnto */
+            /*  dentro /fora borda pelo lado de dentro deslocamento horizontal , deslocamento vertical , raio de desfoque,  raio de propraação ,cor*/
+            box-shadow: inset  -1rem -5rem 1rem -2rem  red;
+            /*adicionando mais de uma sombra*/
+            box-shadow:  -5rem -5rem 1rem -2rem rgba(0, 0, 0, 0.2),
+                         5rem 5rem 1rem 2rem  rgba(255, 0, 0, 0.2) ,
+                         5rem -5rem 1rem rgba(255, 255, 0, 0.2;)
+        }
