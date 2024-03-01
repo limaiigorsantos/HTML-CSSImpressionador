@@ -1,0 +1,229 @@
+/*.item-lista-cabecalho a,
+h1,
+.paragrafo-secao-hero,
+.botao-secao-hero a {
+    font-family: 'montserrat',sans-serif;
+}
+*/
+
+.item-lista-cabecalho a {
+    font-size: 14px;
+    font-family: 'montserrat', sans-serif;
+    color: #112e61;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #404040;
+    font-size: 35px;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.2;
+}
+
+.paragrafo-secao-hero {
+    color: #404040;
+    font-size: 19px;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.2;
+}
+
+.botao-secao-hero,
+a {
+    color: #838282;
+    font-size: 19px;
+    font-family: 'montserrat', sans-serif;
+    line-height: 1.0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.titulo-secao-gratuita {
+    color: #404040;
+    font-size: 35px;
+    font-family: 'montserrat', sans-serif;
+
+}
+
+.realce-secao-gratuita {
+    color: #7a40be;
+
+}
+
+.secao-gratuita-treinamentos {
+    font-family: 'montserrat', sans-serif;
+    font-size: 23px;
+    color: #606060;
+    font-weight: 700px;
+}
+
+.secao-treinamentos-programacao {
+    color: #404040;
+    font-size: 19px;
+    font-family: 'montserrat', sans-serif;
+
+}
+
+/*secao diferenciais */
+.secao-h2 {
+    font-size: 35px;
+    font-family: 'montserrat', sans-serif;
+    color: #404040;
+    font-weight: 400;
+
+}
+
+.realce-secao-diferencial {
+    font-weight: bold;
+    color: #7a40be;
+}
+
+.secao-paragrafo-diferenciais {
+    color: #404040;
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.secao-diferencial-h3 {
+    color: #055e80;
+    font-size: 32px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+
+
+}
+
+.secao-paragrafo-diferenciais-da-hashtag {
+    color: #404040;
+    font-size: 16px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.realce-paragrafo-secao-diferencial {
+    font-weight: bolder;
+}
+
+.secao-difencial-link {
+    color: #055e80;
+    font-size: 35px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.secao-diferencial-h3-link {
+    color: #404040;
+    font-size: 35px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+}
+/*secao-oque-falam*/
+.secao-oque-falam-h2{
+    color: #404040;
+    font-size: 35px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 400;
+}
+.secao-oque-falam-h2 span{
+    color: #404040;
+    font-weight: bold;
+
+}
+.botao-link{
+    color: #404040;;
+    font-family: 'montserrat',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+/*Últimos posts do Blog da Hashtag*/
+h4 a{
+    color: #404040;
+    font-size: 24px;
+    font-weight: 600;
+    font-family:'montserrat',sans-serif;
+}
+.paragrafo-ultimo-post{
+    color: #404040;
+    font-size: 17px;
+    font-family: 'montserrat'sans-serif;
+}
+.realce-legenda-secao-ultimos-post{
+    color: #f7a70c;
+    font-size: 15px;
+    font-family: 'montserrat',sans-serif;
+}
+figcaption{
+    font-size: 15px;
+    font-family: 'montserrat',sans-serif;
+}
+/*<!--Como a Hashtag pode te ajudar?-->*/
+.tituloh2-como-possoteajudar{
+    color: #404040;
+    font-size: 35px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 100;
+
+}
+.tituloh2-como-possoteajudar span {
+    color: #f7a70c;
+    font-weight: bold;
+
+}
+ p ,.paragrafo-secao-comopossoteajudar  {
+    color: black;
+    font-size: 19px;
+    font-family: "Montserrat",sans-serif
+}
+
+.paragrafo-secao-comopossoteajudar a{
+    text-decoration: underline;
+    color:#008ff7;
+    font-weight: 600;
+}
+
+.secao-formatando-minicurso{
+font-weight: 400;
+font-family: 'Montserrat',sans-serif;
+}
+.secao-formatando-minicurso strong{
+    color: #f7a70c;
+    font-weight: bold;
+}
+.botao-link{
+    font-size: 30px;
+    font-family: 'Montserrat'sans-serif;
+}
+/*Fale Conosco*/
+.tituloh3-faleconosco{
+    font-size: 22px;
+    font-family: 'Montserrat',sans-serif;
+    color: #404040;
+    font-weight: 600;
+}
+
+.paragrafo-faleconosco{
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+.email-telefone , a{
+    color: #008ff7;
+    text-decoration: underline;
+}
+.formulario-titulo{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'montserrat',sans-serif;
+    color: #404040;
+}
+.formulario-paragrafo{
+    font-size: 18px;
+    font-family: 'montserrat',sans-serif;
+    color: #404040;
+}
+.formulario-paragrafo  p{
+    font-size: 10px;
+}
+img{
+    width:50px;
+}
+/*fim do modulo01*/

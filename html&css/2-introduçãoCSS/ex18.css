@@ -1,0 +1,57 @@
+h1,
+h2,
+h3,
+p,
+li,
+figcaption {
+    font-family: 'montserrat' sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 1px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+}
+
+a {
+    color: #c44105;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: double;
+    text-decoration-line: underline;
+}
+
+li {
+    color: #0588c4;
+    font-style: italic;
+
+}
+
+.realce-h1 {
+    color: #0588c4
+}
+
+.realce-p,
+p strong {
+    color: #0588c4;
+    font-weight: 700px;
+}
+
+.realce-italico {
+    color: #0588c4;
+    font-style: italic;
+}
+
+.realce-underline {
+    color: #0588c4;
+    text-decoration: underline;
+}
