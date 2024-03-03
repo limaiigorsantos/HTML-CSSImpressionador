@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 65, 2%;
+}
+
+/* position static . 
+    relativo (igual ao estatico mais ele pode mudar em relação ao seu eixo (onde ele parte cima baixo , esquerad , direita)),OBS 
+    ELE SÓ VAI MUDAR A POSICÃO DOS ELEMENTO ONDE VOCE TA COLOCANDO ELE E QUE ESTAO DENTRO DELES - PADRAO : 
+    position: relative;
+    top: ;
+    left: ;
+    height: ;
+    bottom: ;
+position static
+Position absulute: 
+position fixed parecido com o absoluto 
+position stick
+
+*/
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+p{
+    position :fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+ .texto-stick {
+    color: white;
+    position: sticky;
+    top: 2rem;
+}
+p,
+a {
+    color: inherit;
+    /*faz ela pegar a cor do elemento pai que é a div */
+    font-size: 1.6rem;
+}
+
+
+a:first-child{
+    /*lembrar de colocar o posicionamento relativo o elemento para qual voce esta buscando o posicionamento absolutp*/
+    /* O elemento em que estão esta sendo posicionado absolutamnete em relação a quem ? a resposta devera estar como o 
+        posicionamento relativo 
+    */
+
+    /*valores padrões : top :0 
+                        left :0
+                              */
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+}
+
+div {
+    position: relative;
+    height: 75rem;
+    width: 20rem;
+    background-color: green;
+    color: white;
+}
