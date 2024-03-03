@@ -12,6 +12,6 @@ div{
     width: 20rem; /*para deixar mais oval basta ir aumentado a Largura e a border radius */
     height: 20rem;
     background-color: green;
-
+    /*OBS: TODO ELEMENTO HTML É UMA CAIXA (QUADRADO) ENTÃO PARA FORMATAR E DEIXAR REDONDO OU OVAL TEM QUE USAR BORDER - RADIUS */
     border-radius: 50% ; /* so funciona para elementos quadrados e ele fica arredondado . ja para elementos arredondados ele irá Ficar Oval*/
-}
+}                                   
