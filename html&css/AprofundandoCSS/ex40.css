@@ -5,11 +5,53 @@
 html{
     font-size: 62,5%;
 }
+/*bloco 
+          ocupa todo o espaço horizontal 
+          quebra linhas 
+          Box model se aplica
+          Padding e Margin funciona normalmente*/
+/* inline
+    ocupa apenas o espaço do conteudo 
+    não quebra linhas (fica lado a lado)
+    box model não se aplica
+    Padding e margin só funcional na horizontal */      
+    
+/*inline - block  (mistura um pouco dos dois . parte interna como inline e externa(oque se ver ) como bloco
+    Ocupa apenas o espaço do conteudo    | PARTE EXTERNA 
+    Não quebra linhas (Fica lado a lado) | PARTE EXTERNA
+ 
+    Box model se aplica                      |  PARTE INTERNA
+    Padding e Margin funcionam normalmente   |  PARTE INTERNA */
+
+    /*Display none é bem simples , ele faz o emento sumir */
 h1{
     font-size: 3.2rem;
+    height: 5rem;
+    margin:1rem;
+    padding: 1rem; /*magin e padding so se aplicam lado a lado */
 
 }
 h2{
     font-size: 3.2rem;
 
+}
+span{
+    font-style: italic;
+    color: rebeccapurple;
+}
+p{
+    display: inline;
+    font-size: 1.6rem;
+}
+a{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 2rem;
+    height: 5rem;
+  
+}
+span{
+    
+    font-style: italic;
+    
 }
