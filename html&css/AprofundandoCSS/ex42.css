@@ -1,57 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /*estudar*/
-    font-family: 'Montserrat',sans-serif ;
-    font-size: 1.8rem;   
-    
-    
+    box-sizing: border-box;
+    /*estudar*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+
 }
-html{
-    font-size:65.2%;
+
+html {
+    font-size: 65.2%;
 }
 
 body {
     line-height: 1.4rem;
     padding: 24PX;
-
-
 }
- h1,figure{
+
+h2, /*GLOBAL*/
+a,
+ul,
+h3 {
+    padding: 24px;
+}
+
+h1,
+figure {
     padding: 32px;
     font-size: 32x;
 }
-h2,a,ul{
-    padding: 24px;
-}
-h3{
-    padding: 24px;
-}
-p,li{
+
+
+p,
+li {
     padding: 6px;
 }
-main h2 a{  /**FIZ ASSIM*/
-    padding : 0;
+
+main h2 a {
+    /**FIZ ASSIM*/
+    padding: 0;
 }
-figure figcaption{
+
+figure figcaption {
     margin-left: 32px;
 }
-h1::first-letter{
+
+h1::first-letter {
     font-size: 64px;
 }
-a:hover{
-    color:#0588c4; 
+
+a:hover {
+    color: #0588c4;
 }
-.bloco-condicoes{
+
+.bloco-condicoes {
     display: inline-block;
-    background-color:  #035276;
+    background-color: #035276;
     color: #fff;
     border-radius: 20px;
 }
-footer{
-    
-}
-footer section img{
+
+
+
+footer section img {
     position: fixed;
     width: 50px;
 }
