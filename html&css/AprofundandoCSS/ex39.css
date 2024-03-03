@@ -1,0 +1,14 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62, 5%;
+}
+div{
+    width: 20rem;
+    height: 20rem;
+    background-color: green;
+}
