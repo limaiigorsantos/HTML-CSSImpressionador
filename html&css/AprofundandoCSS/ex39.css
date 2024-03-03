@@ -1,14 +1,17 @@
 * {
 
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-    font-size: 62, 5%;
+    font-size: 62,5%;
 }
 div{
-    width: 20rem;
+    margin: 10rem;
+    width: 20rem; /*para deixar mais oval basta ir aumentado a Largura e a border radius */
     height: 20rem;
     background-color: green;
+
+    border-radius: 50% ; /* so funciona para elementos quadrados e ele fica arredondado . ja para elementos arredondados ele irá Ficar Oval*/
 }
