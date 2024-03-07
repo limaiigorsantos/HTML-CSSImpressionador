@@ -1,0 +1,58 @@
+ Material para o Estudo 
+ https://www.youtube.com/watch?v=AHsuA7OV_5U&t=45s
+ https://www.youtube.com/watch?v=LxpU5pQO5mE
+ https://www.sergiojunior.com.br/especificidade-no-css 
+ Especificidade no CSS
+ O que é especificidade no CSS?
+
+Especificidade do CSS é algo que todo desenvolvedor web já se deparou, mesmo que nunca tenha ouvido falar disso. Quem nunca adicionou um estilo no CSS, atualizou a página e... não funcionou. Daí você abre o inspetor, vê que seu estilo está lá, porém, está sendo sobrescrito por outra linha do CSS.
+
+Isso é por causa da especificidade do CSS.
+
+Nessas horas é tentador usar o !important pra não gastar tempo investigando porque o estilo não está sendo aplicado. Funciona, mas tem outras maneiras de resolver isso ao entender a pontuação de cada seletor.
+
+meme - quando css não está sendo aplicado, o important é usado
+
+O navegador tem algumas regras pra calcular e decidir qual estilo do CSS aplicar, principalmente quando há estilos duplicados. Ele considera a especificidade do seletor que está sendo usado, como classes, pseudo-classes, atributos, IDs e elementos.
+
+.user #photo a {
+  // ...
+}
+
+Cada um deles vale uma pontuação, é feita a soma e aplicado qual for maior.
+Como é feito o cálculo?
+
+O navegador usa as seguintes pontuações:
+
+    Cada elemento do HTML vale 0.0.0.1 ponto. (Ex. div ~ p = 0.0.0.2 pontos)
+    Cada classe, pseudo-classe e atributo vale 0.0.1.0 pontos. (Ex. .list .item:hover = 0.0.3.0 pontos)
+    Cada ID, vale 0.1.0.0 pontos. (Ex. #header #menu = 0.2.0.0 pontos)
+    Cada propriedade definida inline no HTML vale 1.0.0.0 pontos. (Ex. color="red" = 1.0.0.0 pontos)
+    Podemos considerar que o !important vale 1.0.0.0.0 pontos.
+
+Basta lembrar da ordem e formato da pontução:
+
+maior pontuação >>>>>>>>>>>>>>>>>>>>>>>> menor pontuação
+style inline > IDs > classes & pseudo-classes > elements
+
+Exemplos
+
+    O seletor header nav li.menu-item vale 1.3 pontos, pois possui 3 elementos e 1 classe.
+
+    O seletor #user p > span value 1.0.2 pontos pois possui 1 ID e 2 elementos.
+
+    O seletor body #menu .item:last-child vale 1.2.1 pontos, pois possui 1 elemento 1 ID e 1 classes e 1 pseudo-classe.
+
+Para te ajudar a entender, eu desenvolvi essa calculadora que conta a pontuação do seletor escrito.
+
+Porém, existem algumas considerações:
+
+    Caso os seletores possuem a mesma pontuação, o último que foi definido na folha de estilo será aplicado.
+    Os pseudo seletores :not e * não valem nenhum ponto.
+    A soma não é decimal, por exemplo, 10 elementos não valem 1 classe, nesse caso sua pontuação seria 0.0.10.
+
+Resposta da pergunta inicial
+
+Como você deve ter entendido, o estilo inline vale mais do que qualquer combinação de classe, elementos e IDs, logo, a resposta é A.
+
+Agora que você já sabe como funciona a especificidade do CSS, nada de adicionar !important pra resolver um conflito de CSS, ein? Adicionar um estilo inline no HTML ou um ou mais ID's no seletor CSS deve resolver tão bem quanto.
