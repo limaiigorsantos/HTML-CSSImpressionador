@@ -1,0 +1,55 @@
+Material Para estudos
+https://www.treinaweb.com.br/blog/unidades-de-medidas-no-css
+https://www.youtube.com/watch?v=JiMFn3dt3o4
+
+
+Unidades de medidas absolutas
+As medidas absolutas têm esse nome, pois elas não alteram o seu tamanho independente da largura da tela. Hoje em dia, é normal uma mesma página web ser acessada por dispositivos com telas de diferentes dimensões, como por exemplo, TVs, Tablets, monitores e celulares, justamente por esse fato as medidas absolutas no CSS não são recomendadas e sim medidas que se adequam às telas de diferentes dimensões, vamos ver alguns exemplos desses tipos de medidas.
+
+Unidades de medidas relativas.
+As medidas relativas, por outro lado, praticamente dominam as declarações de unidades de medidas no CSS, pois como o nome já diz essas medidas têm um comportamento diferente dependendo de algum fator previamente definido e também tem fácil adaptação a diferentes tamanhos de tela. Vamos ver alguns exemplos.
+
+Rem
+O rem é uma das unidades de medida mais usadas no desenvolvimento front-end, porém nem todos entendem como essa medida funciona. Então, vamos entendê-la, 1rem é igual ao tamanho padrão da fonte da raiz(root) do documento, normalmente 16px, logo 1rem é igual à 16px.
+
+Se alterarmos a medida da fonte na raiz(root), alteramos o tamanho do rem, isso acontece com dispositivos de tamanho menores e maiores, pois 1px em um celular, por exemplo, é menor que 1px de uma televisão. Dessa forma nosso texto se torna mais adaptável a vários tamanhos de telas.
+
+
+Em
+Essa medida se comporta semelhante ao rem, a diferença dela é que 1em se baseia no tamanho do elemento pai de um parágrafo. Por exemplo, observe o código abaixo:
+
+Copiar
+<div class="elemento-pai">
+    <p class="texto">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, impedit
+      laudantium officiis, illum aspernatur voluptatibus commodi voluptate,
+      incidunt voluptatum a dignissimos et! Commodi beatae quas praesentium eos
+      ullam aliquam maiores!
+    </p>
+</div>
+Copiar
+.elemento-pai {
+	font-size: 100px;
+}
+
+.texto{
+	font-size: 2em;
+}
+Baseado na explicação acima, quantos px o parágrafo da classe texto terá? Exatamente, 200px. Pois, o elemento pai desse texto está definido previamente como 100px, logo, nesse caso, 1em terá 100px.
+
+Vw e Vh
+Para entender essas duas vamos ver primeiramente os seus significados. Vw, por exemplo, V = view, ou seja, a tela do seu navegador, e W = width, largura, portanto 100vw é 100%, em outras palavras, toda a largura visível do navegador. Seguindo a ideia o Vh é V = view, H = height que significa altura, então 100vh é toda altura visível do seu navegador. Portanto, por ser uma medida relativa, ela depende da altura(vh) ou largura(vw) visível do navegador para definir uma medida.
+
+Porcentagem (%)
+Essa unidade de medida é um dos tipos mais utilizados, quando trabalhamos com CSS. Isso porque, ela se adapta aos diferentes tamanhos de tela. O uso dessa unidade é feito da seguinte forma: quando declaramos que um elemento terá 100% de largura, estamos dizendo que esse mesmo elemento, tem a largura total do elemento que o envolve. Vamos ver um exemplo para ficar mais claro.
+
+Copiar
+<div class="container">
+	<div class="bloco">
+		<p>...</p>
+	</div>
+</div>
+Nesse caso, se o container tive uma largura de, por exemplo, 500px, e, nosso bloco estiver com 100% de largura, o nosso bloco nesse caso terá 500px de largura. Logo, medidas definidas em porcentagem(%), são baseadas na largura do elemento que a envolve.
+
+Conclusão
+Agora que está clara a diferença entre medidas absolutas e medidas relativas, facilita a compreensão de que, as medidas relativas são mais adaptáveis em comparação às absolutas. Facilitando nas criação de layouts que se adequam aos diferentes tipos de dispositivos. Saber essas diferenças entre as unidades de medidas no CSS é fundamental, principalmente no início dos estudos, pois criar uma base de conhecimento sólida nos dá vantagem lá na frente.
