@@ -1,0 +1,25 @@
+*{  /* * seletor de menor prioridade , seleciona TODOS */
+    margin: 0; /* tirando todos os espaçamentos interno e externo da pagina, mas podemos colocar manualmente os espaço */
+    padding: 0;
+}
+html{
+    font-size: 62,5%;  /* font size vai ser de 10 px e agora vamos usar o REM e ele usa o font-size do html como base */
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    color: black;
+}
+
+h1{
+
+    margin-bottom: 2rem;
+    font-size: 3.4rem;
+}
+h2{
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+p{
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
