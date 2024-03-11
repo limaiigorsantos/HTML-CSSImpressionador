@@ -1,0 +1,39 @@
+https://www.dio.me/articles/box-sizing
+BOX-SIZING (CSS)
+#HTML
+#CSS
+Box-Sizing
+
+O modelo de caixa padrão (content-box) pode ser contra-intuitivo, 
+pois a largura/altura de um elemento não representar sua largura ou
+ altura real na tela assim que você começar a adicionar estilos de preenchimento e borda ao elemento.
+
+O exemplo a seguir demonstra esse possível problema com content-box:
+
+textarea {
+  
+      width: 100%;
+      padding: 3px;
+      box-sizing: content-box; /* default value */
+      
+  }
+Como o preenchimento será adicionado à largura da área de texto, o elemento resultante é uma área de texto que é mais larga que 100%.
+
+Mas CSS nos permite alterar o modelo de caixa com a propriedade box-sizing de um elemento.
+
+São três valores diferentes para a propriedade box-sizing:
+
+content-box: O modelo de caixa padrão, largura e altura incluem apenas o conteúdo, -- Nunca Usar esse Modelo 
+ não o padding ou border. Com este padrão o que vai acontecer quando tiver definido 
+ uma largura é que vai aumentar o elemento adicionando os valores de padding e margin
+  para deixar o elemento na largura estabelecida no width.
+
+padding-box: Largura e altura incluem o conteúdo e o preenchimento, mas não a borda;
+
+
+border-box: Largura e altura incluem o conteúdo, o preenchimento e a borda. --Sempre Usar Esse Modelo 
+No caso de ter uma largura que quero que seja respeitada pelo elemento, devo usar esta propriedade, 
+que vai automaticamente respeitar a largura definida no width e ajustar o elemtento à margin e ao padding.
+
+Não entendi o que é box-sizing: e border-box;
+https://cursos.alura.com.br/forum/topico-nao-entendi-o-que-e-box-sizing-e-border-box-158465
