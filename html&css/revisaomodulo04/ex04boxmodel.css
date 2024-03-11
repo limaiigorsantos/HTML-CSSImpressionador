@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* border box é um modelo ontem vai definir o tamanho real da atura ou largura que voce coloca no elemento ) tudo sera convertido em altura ou largura , margin , padding e etc . so olha no box model sempre usar ela*/
+}
+html{
+    font-size: 62,5%;
+}
+div{
+
+    border:  solid 2px black ;
+    padding: 1rem ;
+    height: 20rem;
+
+}
