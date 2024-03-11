@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.2rem;
+    height: 5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    height: 5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+a{
+    display: inline-block;
+    font-size: 1.6rem;
+    height: 5rem; /*altura não funciona em display inline*/
+    margin: 2rem;
+}
+
+
+div ,h1 ,h2 ,p,a,b,span{
+    border: solid   red;
+    display: ;
+}
