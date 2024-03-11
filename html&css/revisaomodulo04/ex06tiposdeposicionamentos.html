@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos De posicionamentos</title>
+</head>
+
+<body>
+    <style>
+        * {  /*seletor universal , seleciona todos os elementos da  pagina . mas é um seletor universal fraco  , qualquer 
+            elemento(CSS -ESTILIZAÇÃO) dentro dele pode ser herdado ,por uma Tag , classe ou ID*/
+    
+            margin: 0; /*zerando Todos os espacos externos da Pagina , porem posso colocar manualmente , caso precise */
+            padding: 0;/*zerando Todos os espaços internos da pagina , porem posso colocar manualmente , caso precise */   
+        }
+        html{
+            font-size: 62,5%; /* usando font-size , pois o R-EM ele só faz o calculo pela font- size , e usando porcentagem pois 
+            é melhor para questão de adptação a navegadores , Mas poderiamos estar usando pixel mesmo , ja que esse valor , vai ser 
+            um valor padrão ! 62,5 = 10pixel */ 
+        } /* position:static , relative , absolute, fixed */
+        h1{
+            font-size: 3.2rem;/* propriedade do tamanho da fonte e usando 3.2rem que é igual a 3.2 x 10pixels(62,5$%) = 32 pixel . REM é uma 
+            unidade de medida relativa ela tem uma melhor flexbilidade em questão de responsividade !
+             , diferente do pixel que é uma unidade de medida absoluta não tem flexbilidade nenhuma é algo como se fosse "chumbado" não altera seu 
+             valor */ 
+        }
+        h2{
+            font-size: 2.4rem; /* propriedade do tamanho da fonte e usando 3.2rem que é igual a 3.2 x 10pixels(62,5$%) = 32 pixel . REM é uma 
+            unidade de medida relativa ela tem uma melhor flexbilidade em questão de responsividade !
+             , diferente do pixel que é uma unidade de medida absoluta não tem flexbilidade nenhuma é algo como se fosse "chumbado" não altera seu 
+             valor */ 
+        }
+        p,a{
+            font-size: 1.6rem;
+            color: inherit;
+        
+        }
+       
+        p{
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+
+        }
+        a:first-child{
+            /*lembrar de colocar com o posicionamneto relativo e elemento pai para qual você esta buscando o  posicionamento absoluto  , nesse caso o 
+            pai dele é a div , então a div tem que ta com um posicionamento relativo !e as e o elemento filho tem que ta como o posciomento absoluto */
+    
+           /* O elemento em questão esta sendo posicionado absolutamente em relação a quem ? A resposta deverá estar no elemento pai que tem que esta 
+           no posicionamento relativo*/ 
+
+            position: absolute;
+           /* top: 0;
+            left: 0;*/  
+            bottom: 2rem;
+            right: 0;
+        }
+        div{
+            /*position: relative;
+            top: 20rem ;
+            left: 20rem;
+            right: ;
+            bottom: ;*/
+            position: relative;
+            height: 70rem;
+            width: 30rem;
+            background-color: green;
+            color: white;
+            
+        }
+        .textosticker{
+            position:sticky;
+            top: 1rem ;
+        }
+
+    </style>
+    <div>
+        <a href="">Acesse Meu Site !</a>
+        <a href="">Outro Acesso </a>
+        <p class="textosticker"> Um textinho aleatorio </p>
+    </div>
+    <p> paragrafo </p>
+</body>
+
+</html>
