@@ -1,0 +1,131 @@
+html{
+    font-size: 62,5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat'sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.4px;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1.4;
+  margin-bottom: 3.2rem;
+
+}
+h1::first-letter{
+    font-size: 6.4rem;
+}
+
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  margin-bottom: 2.4rem;
+  
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 1.8rem;
+  
+}
+
+ul{
+    margin-bottom: 2.4rem;
+    margin-left: 2.4rem;
+}
+p{
+    margin-bottom: 2.4rem;
+}
+figure{
+    margin-bottom: 3.2rem;
+  
+}
+
+figcaption {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-left: 3.2rem;
+  
+}
+a:link,
+a:visited{
+
+    display: inline-block;
+  color: #c44105;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: double;
+  text-decoration-line: underline;
+  margin-bottom: 2.4rem;
+  
+}
+a:hover,
+a:active{
+    color: #0588c4;
+}
+li {
+  color: #035276;
+  font-style: italic;
+  margin-bottom: 0.6rem;
+}
+p{
+    margin-bottom: 0.6rem;
+}
+
+ h1 span {
+  color: #0588c4;
+} 
+
+.realce-h1 {
+  color: #0588c4;
+}
+
+.realce-p,
+p strong {
+  color: #0588c4;
+  font-weight: 700;
+}
+
+.realce-italico {
+  color: #0588c4;
+  font-style: italic;
+}
+
+.realce-underline {
+  color: #0588c4;
+  text-decoration: underline;
+}
+hr{
+    display: none;
+}
+section{
+    padding: 2.4px;
+}
+.div-condicoes{
+    display: inline-block;
+    background-color: #045880;
+    color: #fff;
+    box-shadow: 0 0 1.6rem 0.4rem rgba(0,0,0,0.15%);
+    padding: 2.4rem 3.2rem ;
+    border-radius: 2rem;
+}
+
+.div-condicoes .realce-italico
+.div-condicoes .realce-underline{
+    color: #045880;
+}
+.img-wpp{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 8.5rem;
+}
