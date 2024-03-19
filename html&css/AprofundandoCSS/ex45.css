@@ -16,6 +16,8 @@ body {
 header {
     background-color: #ffff;
     height: 5.5rem;
+    border-bottom: 0.1rem solid gray;
+    box-shadow: 0 0 0.2rem 0.1rem gray;
 }
 
 header img {
@@ -25,20 +27,22 @@ header img {
 }
 
 nav {
-    border: 2px solid rgb(29, 177, 6);
     background-color: #112E61;
     display: inline-block;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #df5404;
 
 }
-a:visited{
- color: black;
+
+a:visited {
+    color: black;
 }
 
 ul {
