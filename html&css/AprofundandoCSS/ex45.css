@@ -8,27 +8,32 @@ html {
     font-size: 62, 5%;
 }
 
-body {}
+body{
+    font-size: 1.8rem;
+    font-family: "Montserrat",sans-serif;
+}
 
 header {
     background-color: red;
-    position: fixed;
-
+    height: 15.5rem;
 }
 
-header img {
-    position: fixed;
-
+nav{
+    border: 2px solid rgb(29, 177, 6);
+    background-color: #112E61;
+    display: inline-block;
 }
 
-ul {
+ul  {
     left: 25.5rem;
-    position: relative;
-
+    position:fixed;
+    font-size: 1.0rem;
 }
 
 li {
-    display: inline-block;
+   display: inline;
     text-transform: uppercase;
     margin-left: 2.0rem;
+    color: #112E61;
+    font-weight: bold;
 }
