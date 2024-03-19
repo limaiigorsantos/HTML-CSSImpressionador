@@ -8,32 +8,39 @@ html {
     font-size: 62, 5%;
 }
 
-body{
+body {
     font-size: 1.8rem;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
-    background-color: red;
-    height: 15.5rem;
+    background-color: #ffff;
+    height: 5.5rem;
 }
 
-nav{
+header img {
+    position: relative;
+    top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+nav {
     border: 2px solid rgb(29, 177, 6);
     background-color: #112E61;
     display: inline-block;
 }
 
-ul  {
-    left: 25.5rem;
-    position:fixed;
+ul {
+    left: 23.5rem;
+    position: fixed;
     font-size: 1.0rem;
 }
 
 li {
-   display: inline;
+    display: inline;
     text-transform: uppercase;
     margin-left: 2.0rem;
     color: #112E61;
     font-weight: bold;
+
 }
