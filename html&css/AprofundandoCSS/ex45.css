@@ -28,15 +28,27 @@ nav {
     border: 2px solid rgb(29, 177, 6);
     background-color: #112E61;
     display: inline-block;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #df5404;
+
+}
+a:visited{
+ color: black;
 }
 
 ul {
-    left: 23.5rem;
+    left: 29.5rem;
     position: fixed;
     font-size: 1.0rem;
 }
 
 li {
+    font-size: 0.9rem;
     display: inline;
     text-transform: uppercase;
     margin-left: 2.0rem;
