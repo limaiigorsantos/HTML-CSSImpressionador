@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+body{
+    font-size: 1.8rem;
+    font-family: "Montserrat",sans-serif;
+
+}
+header a {
+ text-decoration: none;
+ text-transform: uppercase;
+ color: #0810a5;
+ font-weight: 600;
+ font-size: 1.0rem ;
+}
+a:hover{
+    color: #d95d03;
+}
