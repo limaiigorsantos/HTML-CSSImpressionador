@@ -11,6 +11,8 @@ html {
 body {
     font-size: 1.8rem;
     font-family: "Montserrat", sans-serif;
+    
+    
 }
 
 header {
@@ -58,5 +60,42 @@ li {
     margin-left: 2.0rem;
     color: #112E61;
     font-weight: bold;
+}
+/*.fundo{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+} */
+.fundo{
+    margin-left: 20rem;
+    margin-right: 45rem;
+    margin-top: 10rem;
+    display: inline-block;
+}
+.conteudo-principal h1{
+    border: 2px solid red;
+    width: 40rem;
+    display: inline-block;
+    margin-bottom: 2.0rem;
+    color: #131414;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.0;
+}
+.conteudo-principal p{
+    margin-bottom: 1.0rem;
+    font-size: 1.6rem;
+}
+.conteudo-principal a{
+    display: block;
+    border:  2px solid red ;
+    border-radius: 10rem;
+    padding: 0.5rem;
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+    text-align: center;
 }
