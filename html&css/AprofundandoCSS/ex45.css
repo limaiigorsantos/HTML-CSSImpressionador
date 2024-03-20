@@ -76,6 +76,9 @@ li {
     margin-top: 10rem;
     display: inline-block;
 }
+.conteudo-principal{
+    display: inline-block;
+}
 .conteudo-principal h1{
     border: 2px solid red;
     width: 40rem;
