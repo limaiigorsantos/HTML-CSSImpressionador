@@ -38,6 +38,15 @@ p {
 strong {
     font-weight: 600;
 }
+/*a:link,
+a:visited{
+
+}*/
+/*a:hover,
+a:active{
+    color: #f7a60c;
+}*/
+
 
 h2 {
     font-size: 3.5rem;
@@ -53,6 +62,12 @@ h2 {
 .realce-semibold{
     font-weight: 600;
 }
+.cabecalho{
+    padding: 1.28rem 2.5rem;
+}
+nav ul{
+    list-style: none;
+}
 
 /*--Desafio02 completando o cabeçalho-*/
 .item-lista-cabecalho a {
@@ -63,6 +78,14 @@ h2 {
     font-weight: 600;
 
 }
+.item-lista-cabecalho a:hover,
+.item-lista-cabecalho a:active{
+    color: #f60c;
+}
+.item-lista-cabecalho.contemfilhos::after{
+    content: "\25BC";
+}
+
 
 /*secao hero*/
 .hero-paragrafo {
@@ -70,11 +93,7 @@ h2 {
 }
 
 
-/*
-.gratuito-h2{
-    font-weight: 400;
-    font-size: 35px;
-}*/
+
 .gratuito-realce {
     color: #7a40be;
     font-weight: 600;
