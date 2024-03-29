@@ -20,6 +20,9 @@ h2{
 }
 main{
     display: flex;
+    /*gap: 2rem; espaçamento horizontal e vertical */
+    /*row-gap: 4rem; espaçamento entre linhas -vertical cima para baixo */ 
+    column-gap: 4rem; /*espaçamentos entre colunas - horizontal */
 }
 section{
     background-color: rgb(95, 66, 66);
