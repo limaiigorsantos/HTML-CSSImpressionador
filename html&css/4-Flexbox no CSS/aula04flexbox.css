@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+body{
+    font-family: "Montserrat"sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #404040;
+}
+h1{
+    font-size: 3.32rem;
+}
+h2{
+    font-size: 2.76rem;
+}
+main{
+    display: flex;
+    gap: 4rem; /*espaçamento horizontal e vertical */
+    /*row-gap: 4rem; espaçamento entre linhas -vertical cima para baixo */ 
+    /*column-gap: 4rem; /*espaçamentos entre colunas - horizontal */
+    flex-flow: row ; /*flex flow : flex direction flex wrap */
+}
+section{
+    /*flex-basis: 20rem;*/
+    flex:1 1 0rem;
+}
+section:first-child{
+    /*flex-basis:80rem ;*/
+    flex: 2 1 0rem;
+    background-color: rgb(249, 125, 125);
+}
+section:nth-child(2){
+    background-color: aquamarine;
+}
+section:last-child{
+    background-color: blue;
+}
