@@ -19,10 +19,10 @@ h2{
 }
 main{
     display: flex;
-    gap: 2rem; /*espaçamento horizontal e vertical */
-    /*row-gap: 4rem; espaçamento entre linhas -vertical cima para baixo */ 
-    /*column-gap: 4rem; /*espaçamentos entre colunas - horizontal */
-    flex-flow: row ; /*flex flow : flex direction flex wrap */
+    gap: 4rem; /*espaçamento horizontal e vertical */
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column wrap; /* flex-direction flex-wrap */
 }
 section{
     background-color: rgb(249, 125, 125);
