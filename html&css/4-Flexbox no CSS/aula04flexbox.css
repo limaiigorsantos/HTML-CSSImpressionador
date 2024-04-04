@@ -22,16 +22,12 @@ main{
     gap: 4rem; /*espaçamento horizontal e vertical */
     /*row-gap: 4rem; espaçamento entre linhas -vertical cima para baixo */ 
     /*column-gap: 4rem; /*espaçamentos entre colunas - horizontal */
-    flex-flow: row ; /*flex flow : flex direction flex wrap */
+    flex-flow: row wrap ; /*flex flow : flex direction flex wrap */
 }
-section{
-    /*flex-basis: 20rem;*/
-    flex:1 1 0rem;
-}
+
 section:first-child{
-    /*flex-basis:80rem ;*/
-    flex: 2 1 0rem;
     background-color: rgb(249, 125, 125);
+    flex-basis: 80rem;
 }
 section:nth-child(2){
     background-color: aquamarine;
