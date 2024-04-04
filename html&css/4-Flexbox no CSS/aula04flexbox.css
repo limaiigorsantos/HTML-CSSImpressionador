@@ -24,14 +24,13 @@ main{
     /*column-gap: 4rem; /*espaçamentos entre colunas - horizontal */
     flex-flow: row wrap ; /*flex flow : flex direction flex wrap */
 }
-
-section:first-child{
+section{
     background-color: rgb(249, 125, 125);
-    flex-basis: 80rem;
+    flex-basis: 70rem;
 }
 section:nth-child(2){
     background-color: aquamarine;
 }
-section:last-child{
+section::nth-child(3){
     background-color: blue;
 }
