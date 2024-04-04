@@ -28,6 +28,9 @@ section{
     background-color: rgb(249, 125, 125);
     flex-basis: 70rem;
 }
+section{
+    
+}
 section:nth-child(2){
     background-color: aquamarine;
 }
