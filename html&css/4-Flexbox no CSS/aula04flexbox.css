@@ -20,11 +20,11 @@ h2{
 main{
     display: flex;
     gap: 4rem; /*espaçamento horizontal e vertical */
-    flex-flow: row;
+    flex-flow: row wrap;
 }
 section{
     background-color: rgb(249, 125, 125);
-    flex-basis: 70rem;
+    flex-basis: 90rem;
 }
 section{
     flex-grow: 1;
