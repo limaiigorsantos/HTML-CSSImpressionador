@@ -23,15 +23,18 @@ main{
     flex-flow: row ;
 }
 section{
+    flex-basis: 20rem;
+    flex-grow: 1;
+}
+section:first-child{
+    flex-grow: 2;
     background-color: rgb(249, 125, 125);
    /* flex-basis: 90rem ; */
 }
-section{
-    flex-grow: 1;
-}
+
 section:nth-child(2){
     background-color: aquamarine;
 }
-section::nth-child(3){
+section:last-child{
     background-color: blue;
 }
