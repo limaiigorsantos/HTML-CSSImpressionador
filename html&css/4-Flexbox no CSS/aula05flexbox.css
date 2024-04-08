@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+body{
+    font-family: "Montserrat"sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #404040;
+}
+h1{
+    font-size: 3.32rem;
+}
+h2{
+    font-size: 2.76rem;
+}
+main{
+    display: flex;
+    gap: 4rem; /*espaçamento horizontal e vertical */
+    flex-flow: row ;
+}
+section{
+    /*flex-basis: 50rem;
+    flex-grow: 1;*/
+    flex: 1;
+}
+section:first-child{
+   
+    background-color: rgb(249, 125, 125);
+   /* flex-basis: 90rem ; */
+}
+
+section:nth-child(2){
+    background-color: aquamarine;
+}
+section:last-child{
+    background-color: blue;
+}
