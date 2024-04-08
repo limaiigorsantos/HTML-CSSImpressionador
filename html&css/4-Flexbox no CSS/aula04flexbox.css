@@ -24,7 +24,7 @@ main{
 }
 section{
     background-color: rgb(249, 125, 125);
-    flex-basis: 90rem;
+    flex-basis: 90rem ;
 }
 section{
     flex-grow: 1;
