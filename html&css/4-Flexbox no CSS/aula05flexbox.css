@@ -19,15 +19,17 @@ h2{
 }
 main{
     display: flex;
-    gap: 4rem; /*espaçamento horizontal e vertical */
+    gap: 2rem; /*espaçamento horizontal e vertical */
     flex-flow: column ;
     justify-content:center ;
     height: 100vh;
+    
 }
 section{
     /*flex-basis: 50rem;
     flex-grow: 1;*/
     /*flex: 1;*/
+    width: 40rem;
     
 }
 section:first-child{
