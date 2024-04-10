@@ -20,7 +20,7 @@ h2{
 main{
     display: flex;
     gap: 4rem; /*espaçamento horizontal e vertical */
-    flex-flow: row ;
+    flex-flow: column ;
     justify-content:center ;
 }
 section{
