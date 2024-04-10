@@ -23,7 +23,7 @@ main{
     gap: 4rem; /*espaçamento horizontal e vertical */
     flex-flow:row;
     justify-content:center;/* justify- content - Main-AXIS*/
-    align-items: end;/* Aling-Item  - Cross-Axis */
+    align-items:baseline;/* Aling-Item  - Cross-Axis */
     
    
     
