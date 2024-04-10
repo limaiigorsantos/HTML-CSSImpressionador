@@ -17,12 +17,15 @@ h1{
 h2{
     font-size: 2.76rem;
 }
+
 main{
     display: flex;
-    gap: 2rem; /*espaçamento horizontal e vertical */
-    flex-flow: column ;
-    justify-content:center ;
-    height: 100vh;
+    gap: 4rem; /*espaçamento horizontal e vertical */
+    flex-flow:row ;
+    justify-content:center;/* justify- content - Main-AXIS*/
+    align-items: center;
+    
+   
     
 }
 section{
@@ -30,7 +33,8 @@ section{
     flex-grow: 1;*/
     /*flex: 1;*/
     width: 40rem;
-    
+  
+
 }
 section:first-child{
    
