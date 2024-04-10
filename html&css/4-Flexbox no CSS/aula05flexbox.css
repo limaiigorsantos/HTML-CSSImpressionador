@@ -27,7 +27,7 @@ section{
     /*flex-basis: 50rem;
     flex-grow: 1;*/
     /*flex: 1;*/
-    width: 40rem;
+    height: 100vh;
 }
 section:first-child{
    
