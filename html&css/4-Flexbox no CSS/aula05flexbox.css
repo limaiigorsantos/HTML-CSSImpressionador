@@ -21,7 +21,7 @@ main{
     display: flex;
     gap: 4rem; /*espaçamento horizontal e vertical */
     flex-flow: row ;
-    justify-content:space-evenly ;
+    justify-content:end ;
 }
 section{
     /*flex-basis: 50rem;
