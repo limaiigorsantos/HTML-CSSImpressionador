@@ -42,9 +42,13 @@ section:first-child{
    /* flex-basis: 90rem ; */
 }
 
-section:nth-child(2) {
-    background-color: aquamarine;
-}
+/*section:nth-child(2) {
+  
+}*/
 section:last-child{
     background-color: blue;
+}
+.segunda-secao{
+    order: 1; 
+    background-color: aquamarine;
 }
