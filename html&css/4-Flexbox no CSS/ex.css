@@ -52,7 +52,6 @@ main{
     padding: 1.3rem;
     background-color: rgb(20, 69, 231);
     box-shadow: 2px 5px 5px rgba(71, 71, 71, 0.688);
-
 }
 .bloco-azul h2{
     margin-bottom: 0.3rem;
@@ -62,4 +61,19 @@ main{
 }
 .bloco-azul p{
     font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.text-decorantion-underline-color {
+    color: rgb(25, 193, 254);
+    font-style: italic;
+}
+.text-decorantion-underline-color:hover{
+    text-decoration: underline;
+}
+em{
+    color: rgb(25, 193, 254);
+}
+figcaption{
+    text-align: center;
 }
