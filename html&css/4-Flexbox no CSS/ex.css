@@ -38,18 +38,33 @@ main{
    flex-wrap: wrap;
    justify-content: center; 
    gap: 5rem;
+   
 }
 .sub-menu{
     display: flex;
    flex-flow: column wrap;
    gap: 2rem;
+   border: 2px solid red ;
+   
+}
+.bloco-normal{
+    border: 2px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 1.5rem;
+}
+.bloco-normal h2{
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    font-family: "Montserrat",sans-serif;
 }
 .bloco-azul{
     display: flex;
     flex-flow: column wrap;
     border:  rgb(20, 69, 231);
     border-radius: 1em ;
-    padding: 1.3rem;
+    padding: 2.0rem;
+    padding-bottom: 1.5rem;
     background-color: rgb(20, 69, 231);
     box-shadow: 2px 5px 5px rgba(71, 71, 71, 0.688);
 }
@@ -74,6 +89,8 @@ main{
 em{
     color: rgb(25, 193, 254);
 }
-figcaption{
+figcaption  {
     text-align: center;
+    font-style: italic;
+     
 }
