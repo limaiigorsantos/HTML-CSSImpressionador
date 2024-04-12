@@ -95,15 +95,12 @@ figcaption  {
     font-style: italic;
      
 }
-.bloco-final{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
+
 footer{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+   
 }
 .direction-row{
     display: flex;
@@ -112,4 +109,6 @@ footer{
 }
 .lista-one{
     border: 2px solid red;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
 }
