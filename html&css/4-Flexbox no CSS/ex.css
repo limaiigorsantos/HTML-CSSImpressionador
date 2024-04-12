@@ -95,3 +95,13 @@ figcaption  {
     font-style: italic;
      
 }
+.bloco-final{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
