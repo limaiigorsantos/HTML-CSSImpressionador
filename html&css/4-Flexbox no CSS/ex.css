@@ -54,12 +54,12 @@ main{
     box-shadow: 2px 5px 5px rgba(71, 71, 71, 0.688);
 
 }
-h2{
+.bloco-azul h2{
     margin-bottom: 0.3rem;
     color: white;
     font-weight: 800;
     font-family: "Montserrat",sans-serif;
 }
-p{
+.bloco-azul p{
     font-family: "Montserrat",sans-serif;
 }
