@@ -9,5 +9,26 @@ header{
     border: 1px solid red;
     display: flex;
     justify-content: center;
-    
+}
+h1{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;  
+    font-size: 2.4rem; 
+}
+h1::first-letter{
+    font-size: 4rem;
+}
+.text-transform-blue{
+    text-transform: uppercase;
+    color: rgb(80, 115, 233);
+}
+.text-transform-black{
+    text-transform: uppercase;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+.bloco-4{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid red;
 }
