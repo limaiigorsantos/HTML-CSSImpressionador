@@ -108,4 +108,8 @@ footer{
 .direction-row{
     display: flex;
     flex-flow: row wrap;
+    column-gap: 4rem;
+}
+.lista-one{
+    border: 2px solid red;
 }
