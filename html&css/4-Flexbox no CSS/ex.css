@@ -8,6 +8,7 @@ html{
 body{
     display: flex;
     flex-flow: column wrap;
+    row-gap: 2rem;
 }
 header{
     border: 1px solid red;
@@ -26,7 +27,7 @@ h1::first-letter{
 }
 .text-transform-blue{
     text-transform: uppercase;
-    color: rgb(80, 115, 233);
+    color: rgb(20, 69, 231);
 }
 .text-transform-black{
     text-transform: uppercase;
@@ -46,7 +47,19 @@ main{
 .bloco-azul{
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
-    border: 2px solid red;
+    border:  rgb(20, 69, 231);
     border-radius: 1em ;
+    padding: 1.3rem;
+    background-color: rgb(20, 69, 231);
+    box-shadow: 2px 5px 5px rgba(71, 71, 71, 0.688);
+
+}
+h2{
+    margin-bottom: 0.3rem;
+    color: white;
+    font-weight: 800;
+    font-family: "Montserrat",sans-serif;
+}
+p{
+    font-family: "Montserrat",sans-serif;
 }
