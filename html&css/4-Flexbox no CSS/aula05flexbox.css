@@ -35,7 +35,7 @@ section{
   
 
 }
-section:first-child{
+section:first-child {
    
     background-color: rgb(249, 125, 125);
    /* flex-basis: 90rem ; */
