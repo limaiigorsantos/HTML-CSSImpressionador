@@ -39,6 +39,7 @@ main{
    justify-content: center; 
    gap: 5rem;
    
+   
 }
 .sub-menu{
     display: flex;
@@ -57,6 +58,10 @@ main{
     margin-bottom: 1.5rem;
     font-weight: 800;
     font-family: "Montserrat",sans-serif;
+}
+.bloco-normal p strong{
+    color:rgb(20, 69, 231);
+    
 }
 .bloco-azul{
     display: flex;
