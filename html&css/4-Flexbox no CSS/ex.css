@@ -26,9 +26,20 @@ h1::first-letter{
     text-transform: uppercase;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------*/
-
-.bloco-4{
+main{
+    display: flex;
+    
+}
+.section-one{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+
     border: 2px solid red;
 }
+.section-two{
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid red;
+}
+
