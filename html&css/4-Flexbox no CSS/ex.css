@@ -100,6 +100,7 @@ footer{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    row-gap: 2rem;
    
 }
 .direction-row{
@@ -110,16 +111,23 @@ footer{
 .lista-one{
     border: 2px solid red;
     font-family: "Montserrat",sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 h3{
     margin-bottom: 0.9rem;
 }
 .lista-two{
+    flex-wrap: wrap;
     font-family: "Montserrat",sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 .lista-three{
+    flex-wrap: wrap;
     font-family: "Montserrat",sans-serif;
-    font-weight: 700;
+    font-weight: 500;
+}
+ul li{
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(115, 141, 247);
 }
