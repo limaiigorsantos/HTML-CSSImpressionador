@@ -32,3 +32,8 @@ h1::first-letter{
     color: rgb(70, 107, 255);
 }
 /********************************************************/
+main{
+    display: flex;
+    flex-direction:column wrap ;
+    border: 2px solid red;
+}
