@@ -45,34 +45,37 @@ main {
     display: flex;
     flex-flow: row wrap;
     column-gap: 4rem;
+    font-size: 1.3rem;
+    font-family: "Montserrat",sans-serif;
 }
 
 .bloco-one {
     display: flex;
     flex-flow: column wrap;
-
 }
 
 .one img {
-    width: 25rem;
+    width: 20rem;
+}
+figcaption{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.0rem;
+    font-style: italic;
 }
 
 /***********************************************************/
 .bloco-two {
     display: flex;
     flex-flow: column wrap;
-    row-gap: 3rem;
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.4rem;
+    row-gap: 3rem;   
 }
-
 .two h2 {
-    font-weight: 900;
-    border: 2px solid red;
+    font-weight: 800;
     margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 1px rgb(48, 48, 48);
 }
-
 .three {
 
     border-radius: 10px;
@@ -81,21 +84,16 @@ main {
     text-shadow: 2px 1px 0px rgb(48, 48, 48);
     box-shadow: 0 10px 10px rgba(90, 89, 89, 0.5);
 }
-
 .three h2 {
     margin-bottom: 1.5rem;
     color: white;
 }
-
 .three em {
     color: rgb(63, 99, 245);
-    ;
 }
-
 .hover {
     text-decoration: underline;
 }
-
 .three p {
     color: white;
 }
