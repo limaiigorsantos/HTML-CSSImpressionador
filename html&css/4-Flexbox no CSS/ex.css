@@ -108,3 +108,11 @@ figcaption{
 .three p {
     color: white;
 }
+h3{
+    text-decoration: underline;
+    color: rgba(132, 62, 0, 0.993);
+    font-weight: 800;
+    text-decoration-style: double;
+}
+
+/***********************************************************/
