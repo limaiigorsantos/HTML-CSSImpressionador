@@ -10,12 +10,14 @@ body{
     display: flex;
     flex-flow: column  wrap;
     align-items: center;
+    row-gap: 1rem;
 }
 /********************************************************/
 header{
     display: flex;
     flex-flow: row wrap;
     border: 2px solid red;
+    
 }
 h1{
     font-family: 'Montserrat',sans-serif;
@@ -38,3 +40,24 @@ main{
     border: 2px solid red;
     column-gap: 4rem;
 }
+.bloco-one{
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid black;
+}
+.one img{
+    width: 25rem;
+}
+/***********************************************************/
+.bloco-two{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 3rem ;
+    border: 2px solid green;
+    font-family: 'Montserrat',sans-serif;
+}
+.two h2{
+    font-weight: 900;
+    border: 2px solid red;
+}
+.
