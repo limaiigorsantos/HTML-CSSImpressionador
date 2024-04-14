@@ -108,7 +108,7 @@ figcaption{
 .three p {
     color: white;
 }
-h3{
+.teste2 h3{
     text-decoration: underline;
     color: rgba(132, 62, 0, 0.993);
     font-weight: 800;
@@ -116,3 +116,49 @@ h3{
 }
 
 /***********************************************************/
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap:  1rem;
+    font-size: 1.2rem;
+    font-family: "Montserrat",sans-serif;
+    color: rgb(57, 91, 229);
+    font-style: italic;
+    color: black;
+
+}
+footer h3{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    
+}
+.et{
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 3rem;
+}
+.pai-doselementos1{
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.pai-doselementos2{
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.pai-doselementos3{
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    
+}
+.et li {
+    color:rgb(57, 91, 229);
+    font-weight: 500;
+    font-style: italic;
+}
