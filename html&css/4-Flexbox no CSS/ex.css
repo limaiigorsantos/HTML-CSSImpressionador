@@ -36,4 +36,12 @@ main{
     display: flex;
     flex-direction:column wrap ;
     border: 2px solid red;
+    gap: 4rem;
+    font-family: 'Montserrat',sans-serif;
+}
+.bloco-two{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 0.5rem;
+    border: 2px solid red   ;
 }
