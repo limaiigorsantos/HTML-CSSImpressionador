@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+header{
+    display: flex;
+     flex-flow: row wrap;
+     border: 2px solid red;
+
+}
+h1{
+    font-family: 'Montserrat',sans-serif;
+}
+h1 .x::first-letter {
+    font-size: 20rem;
+    font-weight: bold;
+}
