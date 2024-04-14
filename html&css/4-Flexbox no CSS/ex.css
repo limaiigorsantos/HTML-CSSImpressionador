@@ -1,70 +1,101 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
-    font-size: 62,5%;
+
+html {
+    font-size: 62, 5%;
 
 }
-body{
+
+body {
     display: flex;
-    flex-flow: column  wrap;
+    flex-flow: column wrap;
     align-items: center;
     row-gap: 1rem;
+    font-size: 1.8rem;
 }
+
 /********************************************************/
-header{
+header {
     display: flex;
     flex-flow: row wrap;
-    border: 2px solid red;
-    
 }
-h1{
-    font-family: 'Montserrat',sans-serif;
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
-h1::first-letter{
+
+h1::first-letter {
     text-transform: uppercase;
     font-size: 3.5rem;
 }
+
 .texto-maiusculo {
     text-transform: uppercase;
 }
-.fonte-azul{
+
+.fonte-azul {
     color: rgb(70, 107, 255);
 }
+
 /********************************************************/
-main{
+main {
     display: flex;
     flex-flow: row wrap;
-    border: 2px solid red;
     column-gap: 4rem;
 }
-.bloco-one{
+
+.bloco-one {
     display: flex;
     flex-flow: column wrap;
-    border: 2px solid black;
+
 }
-.one img{
+
+.one img {
     width: 25rem;
 }
+
 /***********************************************************/
-.bloco-two{
+.bloco-two {
     display: flex;
     flex-flow: column wrap;
-    row-gap: 3rem ;
-    border: 2px solid green;
-    font-family: 'Montserrat',sans-serif;
+    row-gap: 3rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
 }
-.two h2{
+
+.two h2 {
     font-weight: 900;
     border: 2px solid red;
+    margin-bottom: 1.5rem;
 }
-.three{
-    border: 2px solid red;
+
+.three {
+
     border-radius: 10px;
     padding: 1.5rem;
+    background-color: rgb(16, 62, 246);
+    text-shadow: 2px 1px 0px rgb(48, 48, 48);
+    box-shadow: 0 10px 10px rgba(90, 89, 89, 0.5);
 }
-.three h2{
+
+.three h2 {
     margin-bottom: 1.5rem;
+    color: white;
+}
+
+.three em {
+    color: rgb(63, 99, 245);
+    ;
+}
+
+.hover {
+    text-decoration: underline;
+}
+
+.three p {
+    color: white;
 }
