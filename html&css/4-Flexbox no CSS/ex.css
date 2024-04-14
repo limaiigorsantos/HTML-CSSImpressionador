@@ -60,4 +60,11 @@ main{
     font-weight: 900;
     border: 2px solid red;
 }
-.
+.three{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+.three h2{
+    margin-bottom: 1.5rem;
+}
