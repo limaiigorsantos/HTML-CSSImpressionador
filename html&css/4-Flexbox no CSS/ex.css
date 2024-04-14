@@ -20,7 +20,7 @@ header{
 h1{
     font-family: 'Montserrat',sans-serif;
 }
-h1 .x::first-letter {
-    font-size: 20rem;
+.x::first-letter{
+    font-size: 25rem;
     font-weight: bold;
 }
